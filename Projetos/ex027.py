@@ -1,0 +1,7 @@
+#s = str(input("Insira um nome: ")).strip().lower()
+#print(s.title())
+#print('Seu primeiro nome é: {}'.format(s[0:s.find(" ")+1].capitalize()))
+#print('Seu ultimo nome é: {}'.format(s[s.rfind(" ")+1:len(s)-1].capitalize()))
+s = str(input("Insira um nome: ")).strip().lower().split()
+print('Seu primeiro nome é: {}'.format(s[0].capitalize()))
+print('Seu primeiro nome é: {}'.format(s[len(s)-1].capitalize()))

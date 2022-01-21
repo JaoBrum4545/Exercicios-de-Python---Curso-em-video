@@ -1,0 +1,5 @@
+s = str(input("Insira uma frase: ")).strip().lower()
+print(s)
+print('A letra a aparece: {} vezes'.format(s.count('a')))
+print('A primeira vez que ela aparece é na posição: {}'.format(s.find('a')+1))
+print('A primeira vez que ela aparece é na posição: {}'.format(s.rfind('a')+1))
